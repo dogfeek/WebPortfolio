@@ -1,0 +1,60 @@
+body {
+  font-family: "Lato", serif;
+  font-size: 16px;
+}
+.logoText {
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+}
+.nav {
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px;
+}
+.topmenu li {
+  display: inline;
+  margin-right: 15px;
+}
+.topmenu a {
+  text-decoration: none;
+}
+.logo {
+  width: 150px;
+  float: left;
+}
+.search {
+  width: 250px;
+  float: left;
+}
+.menu {
+  display: flex;
+  width: 500px;
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.header {
+  color: red;
+  font-size: 50px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 15px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.item {
+  padding: 10px;
+}
+.color1 {
+  color: gray;
+}

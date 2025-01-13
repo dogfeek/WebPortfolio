@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML</title>
+    <style>
+      
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      
+      h1, h2, h3, h4 {
+        color: #3e8e41;
+        text-align: center;
+        text-shadow: 1px 1px 2px #ccc;
+      }
+
+      
+      a {
+        color: #3e8e41;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        color: #2b6a30;
+      }
+
+      
+      ul {
+        text-align: center;
+        padding: 10px 0;
+        list-style: none;
+        background-color: #e6f7e6;
+        border: 1px solid #3e8e41;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      
+      table {
+        width: 60%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      table, th, td {
+        border: 1px solid #ddd;
+      }
+
+      th, td {
+        padding: 10px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #e6f7e6;
+      }
+
+      td {
+        background-color: #fff;
+      }
+
+      
+      img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        border: 2px solid #3e8e41;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      
+      p {
+        text-align: center;
+        font-size: 16px;
+        background-color: #fff;
+        padding: 10px;
+        margin: 20px auto;
+        width: 60%;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      
+      table tr:hover {
+        background-color: #f0f0f0;
+      }
+
+     
+      a[href="#top"] {
+        display: inline-block;
+        margin: 10px auto;
+        padding: 8px 15px;
+        background-color: #3e8e41;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      a[href="#top"]:hover {
+        background-color: #2b6a30;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="top">ข้าวผัดปู</h1>
+    <img src="https://i.ytimg.com/vi/iKNbLDX-Cd8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB70M9X0UsZLY_CiWYAid6vaa02yg" alt="ข้าวผัด" />
+    <ul>
+      <li><a href="#ingredients">ingredients</a></li>
+      <li><a href="#method">method</a></li>
+      <li><a href="#nutrition">nutrition</a></li>
+      <li><a href="#refer">refer</a></li>
+    </ul>
+    <h2 id="ingredients">ingredients</h2>
+    <ol>
+      <li>ข้าวสวยแช่เย็นข้ามคืน 2 ถ้วยตวง</li>
+      <li>เนื้อปูสุก 1 ถ้วยตวง</li>
+      <li>แครอทสับ ½ ถ้วยตวง</li>
+      <li>ไข่ไก่ 1 ฟอง</li>
+      <li>ต้นหอมซอย 1ช้อนโต๊ะ</li>
+      <li>เกลือ 1 ช้อนชา</li>
+      <li>ซีอิ๊ว 2 ช้อนชา</li>
+      <li>พริกไทยขาวป่น ½ ช้อนชา</li>
+      <li>น้ำมันพืช 2 ช้อนชา</li>
+      <li>กระเทียมสับ 1 ช้อนโต๊ะ</li>
+    </ol>
+    <a href="#top">top</a>
+    <h3 id="method">method</h3>
+    <ul>
+      <li>
+        ใส่น้ำมันลงในกระทะใส่กระเทียมสับผัดจนหอม ใส่ใข่ไก่ลงไปยีพอให้ไข่สุก
+        แล้วใส่ข้าวสวยลงตามไปผัดคลุกเคล้าให้เข้ากัน
+      </li>
+      <li>
+        ปรุงรสด้วย เกลือ ซีอิ๊ว พริกไทย ผัดให้เข้ากัน ด้วยไฟแรง
+        ใส่เนื้อปูสุกลงไป ผัดจนข้าวดีดจากกระทะถือว่าใช้ได้ ใส่ต้นหอมซอย
+        ตักใส่จาน
+      </li>
+      <li>เสิร์ฟพร้อม แตงกวา มะนาว และต้นหอม</li>
+    </ul>
+    <a href="#top">top</a>
+    <h4 id="nutrition">nutrition</h4>
+    <table>
+      <tr>
+        <th>สารอาหาร</th>
+        <th>ปริมาณ</th>
+        <th>หน่วย</th>
+      </tr>
+      <tr>
+        <td>โปรตีน</td>
+        <td>15.5</td>
+        <td>กรัม</td>
+      </tr>
+      <tr>
+        <td>คาร์โบไฮเดรต</td>
+        <td>68.8</td>
+        <td>กรัม</td>
+      </tr>
+      <tr>
+        <td>ไขมัน</td>
+        <td>19.1</td>
+        <td>กรัม</td>
+      </tr>
+    </table>
+    <strong id="refer">refer</strong>
+    <p>
+      <a
+        href="https://www.wongnai.com/recipes/crab-meat-fried-rice"
+        target="_blank"
+        >SEE MORE</a
+      >
+    </p>
+  </body>
+</html>

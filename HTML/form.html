@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Element</h1>
+    <form action="https://www.example.com"method="post">
+       
+        <label for="name">Fullname:</label>
+        <input type="text" name ="fullname"/>
+        <br>
+        <label for="username">username:</label>
+        <input type="text" name ="username"/>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" name ="password"/>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="Female">Female
+        <input type="radio" name="gender" id="Male">Male
+        <input type="radio" name="gender" id="Undefined">Undefined
+        <br>
+        <label for="source">Source:</label>
+        <input type="checkbox" name="friend" id="friend">Friend
+        <input type="checkbox" name="friend" id="social">Social Media
+        <input type="checkbox" name="friend" id="newpaper">Newpaper
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" cols="20" rows="5"></textarea>
+        <br>
+        <label for="provice">Provice</label>
+        <select name="provice">
+            <option value="bangkok">BKK</option>
+            <option value="surat">Surat Thani</option>
+        </select>
+        <br>
+        <input type="submit" value="OK">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>

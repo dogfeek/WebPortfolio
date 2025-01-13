@@ -1,0 +1,15 @@
+.col{
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: yellow;
+}
+.row2{
+    clear: left;
+    background-color: aqua;
+}
+.footer{
+
+    
+}
